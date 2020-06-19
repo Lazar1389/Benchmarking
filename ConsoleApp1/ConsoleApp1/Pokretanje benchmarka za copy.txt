@@ -1,0 +1,7 @@
+cd ConsoleApp1
+
+dotnet build -c Release
+
+cd ConsoleApp1/bin/Release/netcoreapp3.1
+
+dotnet BenchmarkAndSpanExample.dll  //for my sample application.
